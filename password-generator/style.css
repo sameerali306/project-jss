@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+    
+    
+}
+.container{
+    text-align: center;
+    width: 50vw;
+    min-height: 20vh;
+    background-color: rgb(237, 232, 232);
+    box-shadow: 1px 1px 4px rgb(131, 130, 130);
+    transition: ease-in 0.5s;
+}
+.container h1{
+    font-style: italic;
+}
+#passwordInputField{
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid rgb(150, 147, 147);
+    width: 80%;
+    margin-top: 20px;
+}
+.btn{
+    padding: 10px;
+    background-color: rgb(224, 224, 241);
+    border: none;
+}
+.checkbox{
+  margin-left: 10px;
+}
+.mainBtn{
+    margin-top: 20px;
+    background-color: rgb(174, 255, 0);
+    width: 150px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.mainBtn:active{
+    background-color: green;
+}
+/* .mainBtn:hover{
+    background: white;
+    border: 2px solid rgb(155, 118, 118);
+    border-radius: 5px;
+    color: rgb(89, 69, 69);
+} */
+.container:hover{
+    background-color: burlywood;
+    box-shadow: 1px 1px 2px rgb(89, 69, 69);
+}
+.alert-contianer{
+    position: fixed;
+    width: 300px;
+    background-color: rgb(140, 86, 86);
+    height: 50px;
+    right: 20px;
+    bottom: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    font-size: 20px;
+    color: white;
+    transition: 0.5s;
+}
+.active.alert-contianer{
+    right: -300px;
+}

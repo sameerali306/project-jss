@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+   <div class="container">
+    <h1>Password Generator</h1>
+    <input type="text" name="" id="passwordInputField" placeholder="Generate password">
+    <button class=" btn copyPassword">copy</button>
+    <div class="checkbox">
+        <label>
+  Length:
+  <span id="lengthValue">10</span>
+</label>
+
+<input type="range" id="lengthInput" min="4" max="20" value="10">
+
+        <input type="checkbox" id="NumberAllow">
+        <label for="">Number</label>
+        <input type="checkbox" id="characterallow" >
+        <label for="">Character</label>
+    </div>
+    <button class="btn  mainBtn " id="btnM">Generate </button>
+   </div> 
+   <div class="alert-contianer active">Password Copied</div>
+</body>
+</html>
