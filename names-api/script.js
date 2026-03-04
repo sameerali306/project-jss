@@ -13,7 +13,7 @@ const option = {
 }
 
 async function getNames() {
-    item.style.display = "none";
+    // item.style.display = "none";
     loader.style.display = "block";
     btn.disabled = true;
     try {
@@ -30,7 +30,7 @@ async function getNames() {
         console.log("failed to fetch");
     } finally{
         item.style.display = "block";
-        loader.style.display = "none";
+        // loader.style.display = "none";
         btn.disabled = false;
     }
 }
